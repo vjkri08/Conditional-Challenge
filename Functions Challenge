@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;
+
+contract Functions {
+    function Add(uint a, uint b) external pure returns(uint){
+        return a + b;
+    }
+     function Subtract(uint a, uint b) external pure returns(uint){
+        uint x = a - b;
+        return x;
+    }
+     function Multiply(uint a, uint b) external pure returns(uint){
+        return a * b;
+    }
+     function Division(uint a, uint b) external pure returns(uint){
+        return a / b;
+    }
+
+}
